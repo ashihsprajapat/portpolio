@@ -1,0 +1,146 @@
+body{
+   
+}
+.header{
+    height: 5em;
+    display: flex;
+   
+   margin-top: 1em;
+   padding: 0px;
+}
+#logo{
+    width: 8em;
+    height: 5em;
+    margin: 0px;
+ clip-path: circle(50.0% at 50% 50%); 
+
+}
+.head_item{
+    display: flex   ;
+  margin: 0px;
+  align-items: center;
+  justify-content: center;
+    margin-left:20% ; 
+  
+    justify-content: center;
+  
+} 
+    .head_item button{
+  margin-left: auto; 
+  margin-left: 5em;
+  padding: 0.5em;
+    list-style: none;
+     
+}
+.midle-top{
+    margin-top:7em; 
+    display: flex;
+   margin-bottom:10em;   
+    width: 100%;
+    height: fit-content ;
+  
+}
+#main{
+   
+    
+    /* margin-right: 4em; */
+    width: 27em;
+    margin-top: auto;
+    margin-right:10em;
+   
+    height: 35em;
+    
+     /* clip-path: inset(9% 14% 54% 10%);  */
+    /* margin-top: -6em; */
+
+}
+   
+.aboutme{
+   margin-left:9em;
+    margin-top:6em;margin-right:auto;
+   
+}
+.aboutme2{
+    height: fit-content;
+    /* margin-top:-20em; */
+    display: flex;
+}
+#aboutimg{
+    margin-left:3em;
+    border: 2px solid black;
+    border-radius:3em;
+    box-shadow: 8em;
+    width: 25%;
+    height:fit-content;
+}
+#hilight{
+    color: rgb(234, 101, 101);
+}
+#aboutmain{
+margin-left: 2em;
+
+width: 60%;
+margin-left:6em;
+height: 30em;
+}
+.aboutskil{
+    display: flex;
+}
+.outputSkill ol li{
+    margin-top:0.3em;
+}
+.aboutskil li{
+    list-style: none;
+    margin-left: 1em;
+}
+/* this is for output of html skills  */
+
+
+
+#calcuExplain{
+   margin: 0px;
+   width: 21em;
+    align-items: center;
+    justify-self: center;
+}
+#port{
+    margin: 0px;
+    width: 21em;
+    align-items: center;
+    justify-self: center;
+}
+#game{
+    margin: 0px;
+    width: 21em;
+    align-items: center;
+    justify-self: center;
+}
+.projectPhot{
+    width: 100%;
+   margin: 0px;
+   margin: 0em;
+    border: 0.2em solid rgb(165, 165, 225);
+    border-radius:2em;
+   display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(80px,1fr));
+     gap: 10px;
+    
+}
+.inputContect{
+    margin: 1em;
+    height: 3em;
+    width: 40%;
+}
+.inputContectMessage{
+    height: 19em;
+
+}
+
+/*
+poprt polio btn show mor */
+#btnport{
+    margin-top: 20px;
+}
+#btnExplain{
+    margin-top: 1em;
+}
